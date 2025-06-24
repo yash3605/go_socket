@@ -7,14 +7,14 @@ The application consists of two separate programs: a **Server** that listens for
 ---
 
 ## Project Structure
-go_socket/
-├── server/
-│   ├── main.go        # Server application source code
-│   └── .env           # Environment variables for server configuration
-├── client/
-│   └── main.go        # Client application source code
-├── go.mod             # Go module file
-└── go.sum             # Go module checksums
+* go_socket/
+*    ├── server/
+*    │      ├── main.go        # Server application source code
+*    │      └── .env           # Environment variables for server configuration
+*    ├── client/
+*    │      └── main.go        # Client application source code
+*    ├── go.mod             # Go module file
+*    └── go.sum             # Go module checksums
 
 ---
 
@@ -75,8 +75,8 @@ go run main.go <SERVER_LISTEN_ADDRESS>
 
 ### 6. Interact
 
-** Type messages in the client terminal and press `Enter`.
-** Observe the server terminal, which will show messages received from clients.
-** Observe the client terminal, which will display the server's replies.
-** You can run multiple client instances concurrently to see the server handle them all.
-** To exit a client, type `exit` or `quit` and press `Enter`
+* Type messages in the client terminal and press `Enter`.
+* Observe the server terminal, which will show messages received from clients.
+* Observe the client terminal, which will display the server's replies.
+* You can run multiple client instances concurrently to see the server handle them all.
+* To exit a client, type `exit` or `quit` and press `Enter`
